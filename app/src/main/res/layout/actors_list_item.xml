@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/vijay"
+            android:padding="8dp"
+            android:id="@+id/iv_actors"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_name"
+            android:text="@string/actors_name"
+            android:layout_toRightOf="@+id/iv_actors"
+            android:paddingTop="8dp"
+            android:textColor="@color/com_facebook_blue"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_setName"
+            android:layout_toRightOf="@+id/tv_name"
+            android:paddingTop="8dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_age"
+            android:paddingTop="4dp"
+            android:text="@string/age"
+            android:textColor="@color/com_facebook_blue"
+            android:layout_below="@+id/tv_name"
+            android:layout_toRightOf="@+id/iv_actors"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_setAge"
+            android:layout_toRightOf="@+id/tv_age"
+            android:layout_below="@+id/tv_name"
+            android:paddingTop="4dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_desc"
+            android:text="@string/description"
+            android:paddingTop="4dp"
+            android:textColor="@color/com_facebook_blue"
+            android:layout_below="@+id/tv_age"
+            android:layout_toRightOf="@+id/iv_actors"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_setDesc"
+            android:layout_below="@+id/tv_desc"
+            android:paddingTop="4dp"
+            android:layout_marginLeft="100dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/more"
+            android:text="More-->"
+            android:textColor="@color/com_facebook_blue"
+            android:paddingTop="4dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/tv_setDesc"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

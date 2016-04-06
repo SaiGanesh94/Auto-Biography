@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.divum.auto_biography" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cinema"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <uses-permission android:name="android.permission.INTERNET" />
+
+        <activity
+            android:name=".Registration"
+            android:label="@string/title_activity_registration"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.divum.auto_biography.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.divum.users_home_page.UsersHomePage"
+            android:label="@string/title_activity_users_home_page"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.divum.auto_biography.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:parentActivityName="com.example.divum.users_home_page.UsersHomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.divum.users_home_page.UsersHomePage" />
+        </activity>
+        <activity
+            android:name=".ListingActors"
+            android:label="@string/title_activity_listing_actors"
+            android:parentActivityName="com.example.divum.users_home_page.UsersHomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.divum.users_home_page.UsersHomePage" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Auto Biography</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="password">Password</string>
+    <string name="email_id">E-mail id</string>
+    <string name="success">Success</string>
+    <string name="loading">Loading</string>
+    <string name="sign_in">Sign In</string>
+    <string name="submit">Submit</string>
+    <string name="facebook_app_id">885662618213531</string>
+    <string name="actors">An actor (or actress for female) is one who portrays a character in a performance. The actor performs in the flesh in the traditional medium of the theatre, and/or in modern mediums such as film, radio, and television. The actors interpretation of their role pertains to the role played, whether based on a real person or fictional character. Interpretation occurs even when the actor is playing themselves, as in some forms of experimental performance art or more commonly to act or is to create ora character in performance</string>
+    <string name="director">A film director is a person who directs the making of a film. Generally, a film director controls a film\'s artistic and dramatic aspects, and visualizes the script while guiding the technical crew and actors in the fulfillment of that vision</string>
+    <string name="cinematographer">A cinematographer or director of photography (sometimes shortened to DP or DOP) is the chief over the camera crews working on a film, television production or other live action piece and is responsible for achieving artistic and technical decisions related to the image</string>
+    <string name="music_director">A music director may be the director of an orchestra or concert band, the director of music for a film, the director of music at a radio station, the head of the music department in a school, the coordinator of the musical ensembles in a university, college, or institution</string>
+    <string name="art_director">An art director is someone who is responsible for the visual style and images in magazines, newspapers, product packaging, and movie and television productions. They create the overall design and direct others who develop artwork or layouts.</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_users_home_page">UsersHomePage</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="click_actors"><u>Click to see actors biography-></u></string>
+    <string name="click_directors"><u>Click to see directors biography-></u></string>
+    <string name="click_music_directors"><u>Click to see music directors biography-></u></string>
+    <string name="click_art_directors"><u>Click to see art directors biography-></u></string>
+    <string name="click_cinematographer"><u>Click to see cinematographer biography-></u></string>
+    <string name="search">Search by name</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_listing_actors">ListingActors</string>
+    <string name="age">Age: </string>
+    <string name="description">Description: </string>
+    <string name="actors_name">Name: </string>
+    <string name="vijay_desc">Vijay (born Joseph Vijay Chandrasekhar) is an Indian film actor and playback singer who works in the Tamil film industry. Son of film director and producer S. A. Chandrasekhar, he started his career as a child actor in the movie Vetri and later made his debut as a lead actor in the 1992 film Naalaya Theerpu, both of which were directed by his father. He also launched the Vijay Makkal Iyakkam, a social welfare organisation in 2009. Vijay was listed 28 in Forbes India\'s Celebrity 100 List for the year 2012, 49 in the year 2013 and 41 in the year 2014</string>
+</resources>
